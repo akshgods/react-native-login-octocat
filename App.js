@@ -1,10 +1,10 @@
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
-import LoginScreen from "./screens/Navigate";
+import Navigate from "./screens/Navigate";
 export default class App extends React.Component {
   render() {
     return (
-      <LoginScreen />
+      <Navigate />
     );
   }
 }

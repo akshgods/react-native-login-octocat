@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import { View, Text,TextInput,TouchableOpacity, StyleSheet,Image,Platform,Dimensions,Animated } from 'react-native';
 import * as Animatable from "react-native-animatable";
 import LoginForm from "../components/LoginForm";
+import { createStackNavigator } from 'react-navigation';
 // create a component
 const SCREEN_HEIGHT=Dimensions.get('window').height;
 
